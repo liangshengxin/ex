@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//s3.pstatp.com/">
+    <link rel="dns-prefetch" href="//s3a.pstatp.com/">
+    <link rel="dns-prefetch" href="//s3b.pstatp.com">
+    <link rel="dns-prefetch" href="//p1.pstatp.com/">
+    <link rel="dns-prefetch" href="//p3.pstatp.com/">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    
+    <meta name="baidu-site-verification" content="T239HZAbh7">
+    
+    <meta name="360-site-verification" content="b96e1758dfc9156a410a4fb9520c5956">
+    <meta name='360_ssp_verify' content='2ae4ad39552c45425bddb738efda3dbb'>
+    <meta name="google-site-verification" content="3PYTTW0s7IAfkReV8wAECfjIdKY-bQeSkVTyJNZpBKE">
+    <meta name="shenma-site-verification" content="34c05607e2a9430ad4249ed48faaf7cb_1432711730">
+    <meta name="baidu_union_verify" content="b88dd3920f970845bad8ad9f90d687f7">
+    <meta name="domain_verify" content="pmrgi33nmfuw4ir2ej2g65lunfqw6ltdn5wselbcm52wszbchirdqyztge3tenrsgq3dknjume2tayrvmqytemlfmiydimddgu4gcnzcfqrhi2lnmvjwc5tfei5dcnbwhazdcobuhe2dqobrpu">
+    
+
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.toutiao.com/" >
+<title>今日头条</title>
+<meta name="keywords" content="今日头条，头条，头条网，头条新闻，今日头条官网">
+<meta name="description" content="《今日头条》(www.toutiao.com)是一款基于数据挖掘的推荐引擎产品，它为用户推荐有价值的、个性化的信息，提供连接人与信息的新型服务，是国内移动互联网领域成长最快的产品服务之一。">
+
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="//s3a.pstatp.com/toutiao/resource/ntoutiao_web/static/image/favicon_5995b44.ico" type="image/x-icon">
+    <link rel="stylesheet" href="//s3a.pstatp.com/toutiao/resource/ntoutiao_web/static/style/lib/layout_f4855e3.css">
+    <!--[if lt IE 9]>
+      <script src="//s3a.pstatp.com/toutiao/resource/ntoutiao_web/static/js/lib/es5-shim_110642e.js"></script>
+    <![endif]-->
+    <script src="//s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_d2cb17c.js" crossorigin="anonymous"></script>
+    
+  <link rel="stylesheet" href="//s3b.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_273e335.css" />
+
+</head>
+
+<body style="min-width: 768px; overflow-x: hidden;">
+    
+
+    <a href="/articles_news_society/" style="display:none;"></a>
+
+    <div class="y-wrap">
+        
+<!-- 公共头部 -->
+<div id="header">
+  <div riot-tag="wtopbar" style="height: 34px; background: #222;"></div>
+  
+</div>
+
+<div riot-tag="login"></div>
+<div id="toast"></div>
+
+
+
+
+
+<div class="y-box container">
+  <div class="y-left index-channel">
+    <div riot-tag="wchannel"></div>
+  </div>
+  <div class="y-left index-content">
+    
+    
+
+    <div riot-tag="subchannel" id="subchannel"></div>
+    <div riot-tag="feedBox"></div>
+  </div>
+  <div class="y-right index-modules">
+    <div id="module-place"></div>
+    <div class="module-inner" id="module-inner">
+      <div riot-tag="wsearch" style="margin-bottom: 16px;"></div>
+      
+      
+
+      <div class="right-top-1 right-iframe-img right-img" name="home_right*top_1_zy"></div>
+      <div style="height: 366px; overflow:hidden;">
+        <div id="m-hotNews">
+          <div riot-tag="hotNews"></div>
+          
+          <div id="imagindexhover" class="imagindexhover right-img" name="home_right*bottom_1_zy"></div>
+        </div>
+      </div>
+      
+      <div class="right-iframe-img right-img" name="home_right*top_2_zy"></div>
+      
+      <div riot-tag="adTab"></div>
+      <div riot-tag="whotvideo"></div>
+      
+      <div class="right-iframe-img right-img" name="home_right*top_3_zy"></div>
+      <div riot-tag="whotpicture"></div>
+      <div class="more-items module" ga_event="click_friend_link">
+<div class="module-head more-items-head">更多</div>
+<div class="more-items-content">
+<ul>
+  <li class="item">
+      <a href="/about/"  rel="nofollow">关于头条</a>
+  </li>
+  <li class="item">
+      <a href="/join/"  rel="nofollow">加入头条</a>
+  </li>
+  <li class="item">
+      <a href="/report/"  rel="nofollow">媒体报道</a>
+  </li>
+  <li class="item">
+      <a href="/media_partners/"  rel="nofollow">媒体合作</a>
+  </li>
+  <li class="item">
+      <a href="/cooperation/"  rel="nofollow">产品合作</a>
+  </li>
+  <li class="item">
+      <a href="/media_cooperation/"  rel="nofollow">合作说明</a>
+  </li>
+  <li class="item">
+      <a href="https://ad.toutiao.com/promotion/?source2=pchomemore"  target="_blank" rel="nofollow">广告投放</a>
+  </li>
+  <li class="item">
+      <a href="/contact/"  rel="nofollow">联系我们</a>
+  </li>
+  <li class="item">
+      <a href="/user_agreement/"  rel="nofollow">用户协议</a>
+  </li>
+  <li class="item">
+      <a href="https://mp.toutiao.com/profile_introduction/infringement/complain" rel="nofollow">侵权投诉</a>
+  </li>
+  <li class="item">
+      <a href="/corrupt_report/"  rel="nofollow">廉洁举报</a>
+  </li>
+</ul>
+</div>
+</div>
+
+      <div class="friendLink module" ga_event="click_friend_link">
+<div class="module-head link-head">友情链接</div>
+<div class="link-content" id="friendLink">
+<ul>
+	<li class="item"><a target="_blank" href="http://www.gmw.cn/">光明网</a></li>
+	<li class="item"><a target="_blank" href="http://www.cnr.cn/">央广网</a></li>
+	<li class="item"><a target="_blank" href="http://www.cri.cn">国际在线</a></li>
+	<li class="item"><a target="_blank" href="http://www.tibet.cn/">中国西藏网</a></li>
+	<li class="item"><a target="_blank" href="http://www.cankaoxiaoxi.com/">参考消息</a></li>
+	<li class="item"><a target="_blank" href="http://www.huanqiu.com/">环球网</a></li>
+	<li class="item"><a target="_blank" href="http://www.cyol.com">中青在线</a></li>
+	<li class="item"><a target="_blank" href="http://www.youth.cn/">中青网</a></li>
+	<li class="item"><a target="_blank" href="http://www.haiwainet.cn/">海外网</a></li>
+	<li class="item"><a target="_blank" href="http://h5.china.com.cn">中国网</a></li>
+	<li class="item"><a target="_blank" href="http://www.k618.cn/">未来网</a></li>
+	<li class="item"><a target="_blank" href="http://qianlong.com/">千龙网</a></li>
+	<li class="item"><a target="_blank" href="http://www.bjnews.com.cn/">新京报</a></li>
+	<li class="item"><a target="_blank" href="http://www.ynet.com/">北青网</a></li>
+	<li class="item"><a target="_blank" href="http://www.fawan.com/">法制晚报</a></li>
+	<li class="item"><a target="_blank" href="http://www.morningpost.com.cn">北京晨报</a></li>
+	<li class="item"><a target="_blank" href="http://www.bbtnews.com.cn/">北京商报</a></li>
+	<li class="item"><a target="_blank" href="http://www.stardaily.com.cn/">北京娱乐信报</a></li>
+	<li class="item"><a target="_blank" href="http://www.oeeee.com/">奥一网</a></li>
+	<li class="item"><a target="_blank" href="http://www.ycwb.com/">金羊网</a></li>
+	<li class="item"><a target="_blank" href="http://www.hsw.cn/">华商网</a></li>
+	<li class="item"><a target="_blank" href="http://www.xinmin.cn">新民网</a></li>
+	<li class="item"><a target="_blank" href="http://www.rednet.cn/index.html">红网</a></li>
+	<li class="item"><a target="_blank" href="http://www.jschina.com.cn">中国江苏网</a></li>
+	<li class="item"><a target="_blank" href="http://www.jxnews.com.cn/">中国江西网</a></li>
+	<li class="item"><a target="_blank" href="http://www.iqilu.com/">齐鲁网</a></li>
+	<li class="item"><a target="_blank" href="http://www.hinews.cn/news/">南海网</a></li>
+	<li class="item"><a target="_blank" href="http://www.ahwang.cn/">安徽网</a></li>
+	<li class="item last"><a target="_blank" href="http://www.hebnews.cn/">河北新闻网</a></li>
+	<li class="item"><a target="_blank" href="http://www.mnw.cn/">闽南网</a></li>
+	<li class="item"><a target="_blank" href="http://www.hxnews.com/">海峡网</a></li>
+	<li class="item"><a target="_blank" href="http://www.voc.com.cn/">华声在线</a></li>
+	<li class="item"><a target="_blank" href="http://tv.cztv.com">中国蓝TV</a> </li>
+	<li class="item"><a target="_blank" href="http://www.lnd.com.cn/">北国网</a></li>
+	<li class="item"><a target="_blank" href="http://www.longhoo.net/">龙虎网</a></li>
+	<li class="item"><a target="_blank" href="http://www.timedg.com/">东莞时间网</a></li>
+	<li class="item"><a target="_blank" href="http://www.autohome.com.cn/">汽车之家</a></li>
+	<li class="item"><a target="_blank" href="http://www.onlylady.com/">Onlylady女人志</a></li>
+
+	<li class="item"><a target="_blank" href="http://123.chinaso.com/">中国搜索</a></li>
+	<li class="item"><a target="_blank" href="http://www.nbd.com.cn/">每日经济新闻</a></li>
+	<li class="item"><a target="_blank" href="http://www.cheshi.com/">网上车市</a></li>
+	<li class="item"><a target="_blank" href="http://www.news18a.com/">网通社汽车</a></li>
+	<li class="item"><a target="_blank" href="http://www.enorth.com.cn/">北方网</a></li>
+	
+</ul>
+</div>
+</div>
+
+      <div class="company">
+  <p class="J-company-name"> &copy; 2019 今日头条 </p>
+
+  <a href="http://www.12377.cn/" target="_blank" ga_event="click_about">中国互联网举报中心 </a>
+
+  <a href="http://www.miibeian.gov.cn/" target="_blank" ga_event="click_about">京ICP证140141号 </a>
+
+  <div class="">
+    <a href="http://www.miibeian.gov.cn/" target="_blank" ga_event="click_about">京ICP备12025439号-3 
+    </a>
+    <a href="/license/" class="icp" target="_blank">网络文化经营许可证</a>
+  </div>
+  <p>京-非经营性-2016-0081</p>
+  <p>互联网药品信息服务资格证书</p>
+
+  <a href="/a3642705768/" target="_blank">跟帖评论自律管理承诺书 </a>
+  <span>违法和不良信息举报：010-58341833</span>
+  <span>公司名称：北京字节跳动科技有限公司</span>
+  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002023" target="_blank" ga_event="click_about"><img src="//s3.pstatp.com/toutiao/resource/ntoutiao_web/static/image/gongan_d0289dc.png">京公网安备 11000002002023号</a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="action-feedback">
+  <div riot-tag="feedback"></div>
+</div>
+
+
+<div riot-tag="verification"></div>
+<div riot-tag="articleLayerBox"></div>
+
+    </div>
+
+    <script>
+        window.globals = window.globals || {};
+
+        window.taAnalysis && taAnalysis.setup({
+          c: '/news_hot/'
+        });
+        window.taAnalysis && taAnalysis.send('pageview', {});
+
+        utils.on(document.getElementsByTagName('body')[0], 'click', function(e) {
+            var target = utils.getTarget(e),
+                ga_event,
+                ga_category,
+                ga_label,
+                ga_value;
+
+            while(target && target.nodeName.toUpperCase() !== 'BODY') {
+                ga_event = utils.getAttribute(target, 'ga_event');
+                ga_category = utils.getAttribute(target, 'ga_category') || '/news_hot/';
+                ga_label = utils.getAttribute(target, 'ga_label');
+                ga_value = utils.getAttribute(target, 'ga_value') || 1;
+
+                ga_event && window._czc && _czc.push(["_trackEvent", ga_category, ga_event, ga_label, ga_value]);
+                ga_event && taAnalysis && taAnalysis.send('event', { ev: ga_event });
+                target = target.parentNode;
+            }
+        });
+
+        riot.observable(window);
+    </script>
+    <script src='//s2.pstatp.com/growth/confucius/confs/toutiao.web.toutiao_pc-pc-fe_switch.js?t=03022003'></script>
+    <script>
+      var PAGE_SWITCH = window['toutiao.web.toutiao_pc/pc/fe_switch'] || {};
+    </script>
+    
+<script type="text/javascript">
+  window.jsblock=function(){
+    setTimeout(function () {
+      window._czc && _czc.push(['_trackEvent', 'jsblock', 'home', 'block', 1, ''])
+    }, 1500);
+  }
+</script>
+<script src="//s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_4abea46.js"></script>
+
+<script>
+  // 用户信息
+  var userInfo = {
+      id: 0,
+      name: '',
+      avatarUrl: '',
+      isPgc: false
+  };
+
+  var _data = {"real_time_news":[{"open_url":"\/group\/6663732772563059211\/","group_id":"6663732772563059211","image_url":"\/\/p1.pstatp.com\/medium\/dfic-imagehandler\/416d294f-934f-4b58-a792-b3488650da8b","title":"\u8d75\u8587\u7ffb\u76d8\u65e0\u671b\uff1f"},{"open_url":"\/group\/6663587671970939403\/","group_id":"6663587671970939403","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/f12161ef5eeb4a89ad6721c88ecdeac5","title":"\u597d\u4e0d\u5bb9\u6613\u8bb0\u4f4f\u7684\u62fc\u97f3\uff0c\u8fd9\u4e0b\u53c8\u8981\u91cd\u65b0\u5b66\uff1f"},{"open_url":"\/group\/6663669874394399243\/","group_id":"6663669874394399243","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/RJXPFQE78jS98H","title":"\u7f8e\u56fd\u5ba3\u5e03\u5bf9\u534e\u8fdb\u53e3\u5546\u54c1\u4e0d\u63d0\u9ad8\u5173\u7a0e\u7387 \u56fd\u52a1\u9662\u5173\u7a0e\u53f8\u8868\u793a\u6b22\u8fce"},{"open_url":"\/group\/6663724921442533895\/","group_id":"6663724921442533895","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/0f3e07b7c3c847cb879d2fd85932dee3","title":"\u7f8e\u56fd\u7f51\u7ea6\u8f66\u5de8\u5934\u63d0\u4ea4\u62db\u80a1\u4e66\uff0c3\u5e74\u4e8f\u635f\u8d8520\u4ebf\u7f8e\u5143\uff0c\u6ef4\u6ef4\u5360\u80a1\u4e0d\u52305%"},{"open_url":"\/group\/6663683347631309319\/","group_id":"6663683347631309319","image_url":"\/\/p3.pstatp.com\/list\/240x240\/pgc-image\/RJXcVc258htUC5","title":"\u5168\u56fd34\u4e2a\u90fd\u5e02\u5708\u8bc4\u4ef7\u51fa\u7089 \u57ce\u5e02\u6cbb\u7406\u8f6c\u5411\u201c\u5171\u540c\u4f53\u6784\u67b6\u201d"},{"open_url":"\/group\/6663729639376028172\/","group_id":"6663729639376028172","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/RJYLiruA8UgSuw","title":"\u7279\u6717\u666e\u91d1\u7279\u4f1a\u201c\u8c08\u5d29\u201d\u906d\u4f0a\u6717\u5916\u957f\u5632\u7b11\uff1a\u53cd\u590d\u65e0\u5e38\u4e0d\u662f\u4e25\u8083\u5916\u4ea4"},{"open_url":"\/group\/6663738208087441932\/","group_id":"6663738208087441932","image_url":"\/\/p9.pstatp.com\/list\/240x240\/pgc-image\/RJYTyQhGhb9f8","title":"\u5370\u58f0\u79f0\u7a7a\u88ad\u6d88\u706d300\u6b66\u88c5\u5206\u5b50\uff0c\u5df4\u57fa\u65af\u5766\u6751\u6c11\uff1a\u4e00\u53ea\u4e4c\u9e26\u88ab\u70b8\u6b7b"},{"open_url":"\/group\/6663661066439885325\/","group_id":"6663661066439885325","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/RJXGjj32bXxO6S","title":"\u7f8e\u56fd\u60ac\u8d4f\u767e\u4e07\u6b32\u6349\u62ff\u672c\u00b7\u62c9\u767b\u4e4b\u5b50\uff0c\u6c99\u7279\u5ba3\u5e03\u5265\u593a\u5176\u56fd\u7c4d"},{"open_url":"\/group\/6663649077709767182\/","group_id":"6663649077709767182","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/RJX6l01pZTvzZ","title":"\u7a81\u56f4\u5357\u5317\u5939\u51fb\uff0c\u5c71\u4e1c\u6b32\u6574\u5408\u5730\u70bc\u5efa4000\u4e07\u5428\u70bc\u5316\u57fa\u5730"},{"open_url":"\/group\/6663625747678102030\/","group_id":"6663625747678102030","image_url":"\/\/p3.pstatp.com\/list\/240x240\/tos-cn-i-0004\/52beb05f7fad469898cf07efe0c9b00e","title":"\u82f1\u56fd\u53eb\u56a3\u201c\u70ae\u8230\u5916\u4ea4\u201d \u4e2d\u56fd\u5927\u4f7f\u53d1\u6587\uff1a\u8bf7\u73cd\u60dc\u201c\u9ec4\u91d1\u65f6\u4ee3\u201d\uff01"},{"open_url":"\/group\/6663704371299090947\/","group_id":"6663704371299090947","image_url":"\/\/p3.pstatp.com\/list\/240x240\/pgc-image\/RJXx2LjDt5Pw9K","title":"\u5370\u5df4\u5728\u514b\u4ec0\u7c73\u5c14\u5730\u533a\u518d\u53d1\u70ae\u51fb \u4e92\u6709\u4f24\u4ea1"},{"open_url":"\/group\/1626873798971406\/","group_id":"1626873798971406","image_url":"\/\/p1.pstatp.com\/list\/240x240\/1b61900017165b0e6875e","title":"\u3010\u5de9\u6c49\u6797\u8c08\u660e\u661f\u6d41\u91cf\u9020\u5047\uff1a\u6f14\u827a\u754c\u4e5f\u8981\u6709\u201c\u5f81\u4fe1\u8bb0\u5f55\u201d\u3011\u5168\u56fd\u653f\u534f\u59d4\u5458\u5de9\u6c49\u67973\u67082\u65e5\u63a5\u53d7\u91c7\u8bbf\u65f6\u8868\u793a\uff0c\u6f14\u827a\u754c\u4e5f\u5e94\u9488\u5bf9\u6d41\u91cf\u9020\u5047\u3001\u6536\u89c6\u9020\u5047\u660e\u661f\u505a\u4e00\u4e2a\u5f81\u4fe1\u8bb0\u5f55\uff0c\u201c\u4e0d\u80fd\u968f\u4fbf\u6d41\u91cf\u9020\u5047\uff0c\u4e0d\u80fd\u968f\u4fbf\u641e\u4e00\u4e9b\u865a\u5047\u5ba3\u4f20\uff0c\u4e0d\u80fd\u4e3a\u4e86\u6536\u89c6\u7387\u800c\u91c7\u53d6\u4e0d\u6cd5\u624b\u6bb5\uff0c\u8fd9\u4e2a\u90fd\u975e\u5e38\u91cd\u8981\u201d\u3002\u4ed6\u63d0\u51fa\u6709\u4e86\u7ea6\u675f\u4e4b\u540e\uff0c\u80fd\u4f7f\u6f14\u827a\u754c\u827a\u4eba\u548c\u516c\u53f8\u66f4\u5b88\u8bda\u4fe1\u3002"},{"open_url":"\/group\/6663722688659325452\/","group_id":"6663722688659325452","image_url":"\/\/p3.pstatp.com\/list\/240x240\/pgc-image\/18d69d54dbcc4ecbad6da4a80b2c66fc","title":"\u90ed\u53f0\u94edA\u80a1\u6c89\u6d6e"},{"open_url":"\/group\/6661438662359646734\/","group_id":"6661438662359646734","image_url":"\/\/p3.pstatp.com\/list\/240x240\/pgc-image\/RIyFauo6u4rwg0","title":"\u82cf\u8d1e\u660c\u79f0\u82e5\u4e24\u5cb8\u201c\u5f00\u6253\u201d\u8981\u62ff\u626b\u5e1a\u201c\u62fc\u4e86\u201d\uff0c\u53f0\u4e2d\u5e02\u957f\uff1a\u4f55\u7b49\u7684\u7b11\u8bdd"},{"open_url":"\/group\/6663687951643312651\/","group_id":"6663687951643312651","image_url":"\/\/p3.pstatp.com\/list\/240x240\/pgc-image\/RJXh0i74oI3nqK","title":"\u7f8e\u671d\u5c31\u7b2c\u4e8c\u6b21\u91d1\u7279\u4f1a\u65e0\u534f\u8bae\u800c\u7ec8\u8bf4\u6cd5\u4e0d\u4e00 \u7f8e\u5a92\uff1a\u8bf4\u5b9e\u8bdd\u7684\u4f3c\u4e4e\u662f\u671d\u9c9c\u4eba"},{"open_url":"\/group\/6663742162997346828\/","group_id":"6663742162997346828","image_url":"\/\/p1.pstatp.com\/list\/240x240\/pgc-image\/d5f1d9ba41554eb3b602aa2889152726","title":"\u4ed6\u4eec\u662f\u552f\u4e00\u80fd\u8377\u67aa\u5b9e\u5f39\u8ddf\u5728\u91d1\u6b63\u6069\u8eab\u8fb9\u7684\u4eba"}]};
+
+  // 二级频道
+  var subchannels = [];
+
+  var hotNews = _data.real_time_news;
+
+  var channelTypeMap = {
+    "essay_joke": 2,
+    "news_image": 3
+  };
+
+  var channelType =  channelTypeMap['news_hot'] || 1;
+
+  // ab测试控制
+  var ab_list_style = '0';
+
+  // 推荐效率测试
+  var use_feed_service = true;
+
+</script>
+
+<script>
+  (function() {
+    var _params = utils.getSearchParams();
+
+    if (_params['ab_list_style']) {
+      ab_list_style = _params['ab_list_style'];
+    }
+  })();
+</script>
+
+<script>
+  
+</script>
+
+
+<script>
+  riot.mount('wtopbar', {
+    home: true,
+    userInfo: userInfo,
+    abType: +ab_list_style,
+    pageId: '/news_hot/'
+  });
+</script>
+
+<script>
+  riot.mount('carouselBox', {});
+  riot.mount('wsearch', { noHot: true });
+</script>
+
+<script>
+  riot.mount('feedBox', {
+    type: channelType,
+    category: 'news_hot',
+    widen: 1,
+    abType: +ab_list_style,
+    serviceType: use_feed_service
+  });
+</script>
+
+<script>
+  riot.mount('wchannel', {
+    tag: 'news_hot' == '__all__'?'/':'/ch/'+'news_hot'+'/',
+    province: '河南'
+  });
+  riot.mount('feedback', {
+    abType: +ab_list_style
+  });
+  riot.mount('verification');
+  subchannels && subchannels.length>0 && riot.mount('subchannel', {
+    subchannels: subchannels,
+    suspension: true
+  });
+</script>
+
+<script>
+  riot.mount('hotNews', {hotNews:hotNews});
+  riot.mount('whotvideo', {});
+  riot.mount('whotpicture', {});
+</script>
+<script>
+  var imgUrl = '/c/k0rnlm1cpymfgs5ldf6zvk2atm9v4hpurb9f560yvjf7ovntc6u2r0j9o/';
+</script>
+<script>
+  ;(function(win) {
+    var picVersion = win.PAGE_SWITCH && win.PAGE_SWITCH.picVersion;
+    var adScriptUrl = window.PAGE_SWITCH && window.PAGE_SWITCH.migScriptUrl ||
+      '//s3a.pstatp.com/toutiao/gallery_img/dist/img.min.js';
+    if (!picVersion) {
+      var d = new Date();
+      picVersion = d.getFullYear() + '' + (d.getMonth() + 1) + '' + d.getDate() + '_01';
+    }
+    var url = adScriptUrl + '?ver=' + picVersion;
+    window.utils && window.utils.loadScript(url, function() {
+      setTimeout(function() {
+        window.trigger('ad_put');
+      });
+    }, function() {
+      return window.jsblock();
+    });
+  })(window);
+</script>
+
+    <script src="//s95.cnzz.com/z_stat.php?id=1259612802&web_id=1259612802" language="JavaScript"></script>
+</body>
+</html>
