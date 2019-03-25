@@ -2,7 +2,6 @@ local Article = {
     hash='article:hash:id:', -- 资讯信息键名前缀 保存内容
     set_group='article:set:group:',  --分组键名前缀 保存为个组中分配的内容id 无内容前缀
     zset='article:zset:groups', -- 总组 保存各组的键名id 不含前缀
-    redis=nil, --redis连接
 }
 
 
@@ -31,10 +30,6 @@ function Article:new(config)
         for k,v in pairs(config) do init[k] = v end
     end
     
-    -- 连接redis
-    if not self.redis then
-        self.redis = redis:connect()
-    end
     setmetatable(init,{__index=self})
     return init
 end
@@ -80,13 +75,13 @@ function Article:getAllID(pageStart,pageEnd,groupIds)
     
     local pageStart = pageStart or 0
     local pageEnd = pageEnd or -1
-    local cRange = groupIds or self.redis:zRevRange(self.zset,pageStart,pageEnd) -- 组id 单重表格
+    local cRange = groupIds or ngx.ctx.r:zRevRange(self.zset,pageStart,pageEnd) -- 组id 单重表格
 
     local data = {} --数据
     
     for oneK,groupId in pairs(cRange) do
         -- 获取每组中保存的内容id 单重表格
-        local groups = self.redis:sMembers(self.set_group..groupId)
+        local groups = ngx.ctx.r:sMembers(self.set_group..groupId)
         for gk,id in pairs(groups) do
             table.insert(data,id)
         end
@@ -102,15 +97,15 @@ end
 function Article:get(keyID,...)
     local data = {}
     if select('#',...)~=0 then
-        items = self.redis:hmGet(self.hash..keyID,...)
+        items = ngx.ctx.r:hmGet(self.hash..keyID,...)
         for k,value in pairs(items) do
             data[table.remove({...},k)] = value
         end
         return data
     end
 
-    local content = self.redis:hGetAll(self.hash..keyID)
-    return self.redis:array_to_hash(content)
+    local content = ngx.ctx.r:hGetAll(self.hash..keyID)
+    return ngx.ctx.r:array_to_hash(content)
 end
 
 return Article

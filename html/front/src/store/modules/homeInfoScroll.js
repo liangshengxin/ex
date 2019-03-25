@@ -9,7 +9,7 @@ const state = {
         },
         // 上拉加载配置
         pullUpLoad: {
-            threshold:90,
+            threshold:100,
             txt:{
                 more:'',
                 noMore:'暂无更多内容'

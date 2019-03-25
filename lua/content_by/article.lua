@@ -9,16 +9,16 @@ Article.userModel = require('model/article_user')
     列表数据 自动
 ]=]
 function Article.list()
-    local uid = initParams.uid
     local list = nil
 
-    if not uid then
+    if not ngx.ctx.uid then
         list = self.model:new():getPage(0)
     else
         local act = ngx.req.get_headers()['actionstr']
-        list = self.userModel:new({uid=uid,act=act}):getPage()
+        list = self.userModel:new({act=act}):getPage()
     end
     code:outputJson(list)
+
 end
 
 function Article.pageList(params)

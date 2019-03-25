@@ -8,7 +8,7 @@
         <div class="row-all">
             <!-- 头像 -->
             <div class="row-all-img">
-                <img :src="infos.headimg" />
+                <img v-lazy="infos.headimg" />
             </div>
             <!-- 名称 -->
             <span class="row-nowrap">{{infos.name}}</span>

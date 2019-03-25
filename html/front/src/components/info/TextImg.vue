@@ -24,7 +24,7 @@
     <!-- 头像 名称 -->
     <div class="in-all">
         <div class="in-all-headimg">
-            <img :src="infos.headimg" />
+            <img v-lazy="infos.headimg" />
         </div>
         <span class="in-all-name">{{infos.name}}</span>
     </div>

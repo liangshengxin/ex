@@ -8,7 +8,7 @@
         <div class="up-all-left">
             <!-- 头像 -->
             <div class="up-all-left-img">
-                <img :src="infos.headimg" />
+                <img v-lazy="infos.headimg" />
             </div>
             <!-- 名称 -->
             <span>{{infos.name}}</span>

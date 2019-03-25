@@ -59,7 +59,10 @@ export default {
         //重新计算 better-scroll
         this.$refs.scroll.refresh() 
         //滚动到指定位置
-        this.$refs.scroll.scrollTo(0,this.$store.state.homeInfoScroll.scrollEndY,450)            
+        this.$refs.scroll.scrollTo(0,this.$store.state.homeInfoScroll.scrollEndY,0) //最后一个0 直接滚动到指定位置无缓冲时间
+
+        // 执行一下滚动事件
+        this.handleScroll()
     },
     methods:{
         // 下拉刷新
@@ -95,14 +98,14 @@ export default {
             // 下按钮元素范围 <2时触发一次允许滚动事件
             if( this.domnScrollBool && this.$store.state.homeInfoScroll.domnScroll<2 ){
                 this.$refs.scroll.enable() // 允许滚动
-                this.domnScrollBool=false
-                this.domnScrollTwo=true
+                // this.domnScrollBool=false
+                // this.domnScrollTwo=true
             }
             // 下按钮元素范围 >2时触发一次禁止滚动事件
             if(this.domnScrollTwo && this.$store.state.homeInfoScroll.domnScroll>2){
                 this.$refs.scroll.disable() // 禁止滚动
-                this.domnScrollTwo=false
-                this.domnScrollBool=true
+                // this.domnScrollTwo=false
+                // this.domnScrollBool=true
             }
 
 
@@ -114,8 +117,10 @@ export default {
             var dec = contHei - bodys.height
             if(Math.abs(dec) < 2 ){
                 this.$refs.scroll.enable() // 允许滚动
+            }else{
+                this.$refs.scroll.disable() // 禁止滚动
             }
-      
+            
         }
     },
     components:{
